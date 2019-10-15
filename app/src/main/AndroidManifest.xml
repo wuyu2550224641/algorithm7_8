@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.algorithm7_8">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Test8.EightT3Activity"></activity>
+        <activity android:name=".Test8.EightT2Activity" />
+        <activity android:name=".Test8.EightT1Activity" />
+        <activity android:name=".Test7.SevenT3Activity" />
+        <activity android:name=".Test7.SevenT2Activity" />
+        <activity android:name=".Test7.SevenT1Activity" />
+        <activity android:name=".Test8.EightActivity" />
+        <activity android:name=".Test7.SevenActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
